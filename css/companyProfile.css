@@ -1,0 +1,37 @@
+
+/*公司概况*/
+.company_profile .company_profile_banner {
+  width: 100%;
+  height: 24rem;
+  background: url('../image/company.png') no-repeat;
+  background-size: 100% 100%;
+}
+.company_profile_title {
+    width: 30rem;
+    margin: 1rem auto;
+    display: flex;
+}
+.company_profile_title .line {
+  flex: 1;
+  border-top: 0.05rem solid #333333;
+  margin-top: 1rem;
+}
+.company_profile_title .title_text {
+  font-size: 1.5rem;
+  color: #333333;
+}
+.company_profile_article {
+  text-align: center;
+  margin-top: 2rem;
+}
+.company_profile_article p {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+.company_profile_img {
+  margin: -2rem auto 0;
+  width: 22.8rem;
+  height: 7.9rem;
+  background: url('../image/citybg.png') no-repeat #fff;
+  background-size: 100% 100%;
+}

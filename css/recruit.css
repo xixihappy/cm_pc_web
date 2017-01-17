@@ -1,0 +1,233 @@
+
+/*诚聘英才*/
+.recruit_banner {
+  width: 100%;
+  height: 24rem;
+  background: url('../image/recruit.png') no-repeat;
+  background-size: 100% auto;
+}
+.ZH_recruit_banner {
+  width: 100%;
+  height: 24rem;
+  background: url('../image/ZH_recruit.png') no-repeat;
+  background-size: 100% auto;
+}
+.base_title {
+    width: 30rem;
+    margin: 2.5rem auto;
+    display: flex;
+}
+.base_title .line {
+  flex: 1;
+  border-top: 0.05rem solid #333333;
+  margin-top: 1rem;
+}
+.title_text p{
+  margin: 0;
+  color: #333333;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.title_text .main_title {
+  font-size: 1.5rem;
+}
+.title_text .subhead {
+  font-size: 0.7rem;
+}
+.recruit_article {
+  display: flex;
+  width: 50rem;
+  margin: 0 auto 3rem;
+  position: relative;
+}
+.recruit_left {
+  width: 16rem;
+  padding-right: 1rem;
+  border-right:0.05rem solid #EA2727;
+  position: relative;
+}
+.main_title {
+  margin: 0;
+  font-family: MFLiHei_Noncommercial-Regular;
+  font-size: 2.5rem;
+  color: #EB2727;
+  text-align:right;
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+.subhead {
+  margin: 0;
+  font-family: MFLiHei_Noncommercial-Regular;
+  font-size: 1.2rem;
+  color: #333333;
+  text-align: right;
+  line-height: 2rem;
+}
+.tag {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #424242;
+  text-align: right;
+  line-height: 1.8rem;
+}
+.tag i {
+  font-size: 1.2rem;
+  margin-right: 0.3rem;
+}
+.info_list {
+    margin: 0 1rem;
+    width: 33rem;
+    list-style: none;
+    padding: 1rem 0;
+    border-bottom: 0.05rem solid #E9E9E9;
+}
+.info_list:last-child {
+  border-bottom: none;
+}
+.info_list:first-child {
+  padding-top: 0;
+}
+.info_list li {
+  font-size: 0.7rem;
+  color: #151515;
+  line-height: 1.25rem;
+}
+.info_title {
+  font-size: 0.7rem;
+  color: #151515;
+}
+.info_title i {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.pagination {
+  width: 6rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 9.5rem;
+  z-index: 9;
+}
+.pagination .right_arrow ,.pagination .left_arrow {
+  position: relative;
+  display: inline-block;
+  width: 2.5rem;
+  height: 1.8rem;
+  background: #fff;
+  border: 0.05rem solid #EA2727;
+}
+.pagination .left_arrow {
+  right: 0.7rem;
+  bottom: 1.9rem;
+}
+.pagination .right_arrow {
+  right: 1rem;
+}
+.active1 {
+  background: #EA2727!important;
+}
+.pagination .left_arrow::after {
+  border: 0.25rem solid transparent;
+  border-right: 0.25rem solid #EA2727;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  margin-right: -0.125rem;
+  margin-top: -0.25rem;
+  content: ' '
+}
+.pagination .right_arrow::after {
+  border: 0.25rem solid transparent;
+  border-left: 0.25rem solid #EA2727;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.125rem;
+  margin-top: -0.25rem;
+  content: ' '
+}
+.left_active::after {
+  border-right-color: #fff!important;
+}
+.right_active::after {
+  border-left-color: #fff!important;
+}
+#recruitlist {
+  padding-bottom: 2rem;
+}
+.als-container {
+  position: relative;
+  width: 50rem;
+  margin: 0px auto;
+}
+.als-viewport {
+  position: relative;
+  overflow: hidden;
+  width: 50rem;
+  margin: 0px auto;
+}
+
+.als-wrapper {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.als-item {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  float: left;
+  margin: 0px 1rem;
+  width: 50rem;
+  overflow: hidden;
+}
+.als-prev, .als-next {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  clear: both;
+}
+@media (min-width: 1024px){
+  .recruit_banner {
+    height: 13rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .recruit_banner {
+    height: 15rem;
+  }
+}
+@media (min-width: 1280px) {
+  .recruit_banner {
+  height: 16rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .recruit_banner {
+    height: 17rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .recruit_banner {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  .recruit_banner {
+    height: 21rem;
+  }
+}
+@media (min-width: 1920px) {
+  .recruit_banner {
+    height: 24rem;
+  }
+}
